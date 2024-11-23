@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+ 
+ int sum(int a ,int b);                     // fuunction declare 
+ int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);             // functon call
+    int result =sum(a,b);
+ 
+     printf("%d",result);
+ }
+// function definaton
+
+
+int sum(int a , int b){
+        return a+b;
+        return 0;
+    }
